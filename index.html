@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>liebel.net — Notes on markets and investing</title>
+<meta name="description" content="A personal notebook on markets and investing: where the indexes stand, a thematic watchlist, and an occasional journal entry.">
+<meta property="og:title" content="liebel.net">
+<meta property="og:description" content="A personal notebook on markets and investing.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Crect width='28' height='28' fill='%230E3A6E'/%3E%3Cg fill='none' stroke='white' stroke-width='1.6'%3E%3Crect x='2' y='2' width='24' height='24'/%3E%3Cline x1='14' y1='2' x2='14' y2='26'/%3E%3Cline x1='2' y1='14' x2='26' y2='14'/%3E%3Ccircle cx='14' cy='14' r='6'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header class="site-header">
+<a class="brand" href="index.html"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="#FFFFFF" stroke-width="1.5"><rect x="1" y="1" width="26" height="26"/><line x1="14" y1="1" x2="14" y2="27"/><line x1="1" y1="14" x2="27" y2="14"/><circle cx="14" cy="14" r="6"/></svg>liebel.net</a>
+<nav class="site-nav" aria-label="Main">
+<a href="index.html" aria-current="page">Home</a>
+<a href="markets.html">Markets</a>
+<a href="watchlist.html">Watchlist</a>
+<a href="journal.html">Journal</a>
+<a href="index.html#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<section class="hero">
+<div class="label">Sheet 001 — Index</div>
+<h1>A personal notebook on markets and investing.</h1>
+<p class="lede">Where the indexes stand, the names I'm watching and why, and an occasional journal entry. Kept for myself, open to anyone curious.</p>
+</section>
+
+<section class="tv" aria-label="Market ticker">
+<div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+{"symbols":[{"proName":"FOREXCOM:SPXUSD","title":"S&P 500"},{"proName":"NASDAQ:QQQ","title":"Nasdaq-100 (QQQ)"},{"proName":"FOREXCOM:DJI","title":"Dow 30"},{"proName":"TVC:VIX","title":"VIX"},{"proName":"TVC:US10Y","title":"US 10-yr"}],"showSymbolLogo":false,"isTransparent":true,"displayMode":"adaptive","colorTheme":"dark","locale":"en"}
+</script></div>
+</section>
+<div class="note">QUOTES BY TRADINGVIEW · MAY BE DELAYED</div>
+
+<section class="grid" aria-label="Sections" style="margin-top:72px">
+<a class="card panel" href="markets.html"><span class="k">002 / MARKETS</span><span class="t">Market board</span><span class="d">Major indexes, volatility and rates on one sheet.</span><span class="go">OPEN →</span></a>
+<a class="card panel" href="watchlist.html"><span class="k">003 / WATCHLIST</span><span class="t">What I'm watching</span><span class="d">The AI buildout, layer by layer: fifteen names and why each is here.</span><span class="go">OPEN →</span></a>
+<a class="card panel" href="journal.html"><span class="k">004 / JOURNAL</span><span class="t">Notes &amp; commentary</span><span class="d">Latest: Invest in AI, but don't invest in AI</span><span class="go">READ →</span></a>
+</section>
+
+<section id="contact" class="contact">
+<div class="intro">
+<div class="label">005 — Contact</div>
+<h2>Say hello.</h2>
+<p>Messages come to me directly. I read everything, though I may not reply to everything.</p>
+</div>
+<form action="https://formspree.io/f/xkjoabwq" method="POST">
+<div class="row">
+<label>NAME<input type="text" name="name" autocomplete="name" required></label>
+<label>EMAIL<input type="email" name="email" autocomplete="email" required></label>
+</div>
+<label>MESSAGE<textarea name="message" rows="5" required></textarea></label>
+<input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+<input type="hidden" name="_subject" value="liebel.net contact form">
+<button class="btn" type="submit">SEND MESSAGE</button>
+</form>
+</section>
+</main>
+
+<footer class="site-footer">
+<span>© 2026 LIEBEL.NET · Personal views. Not investment advice.</span>
+<span>REV B · DRAWN 2026-10</span>
+</footer>
+
+</div>
+</body>
+</html>
